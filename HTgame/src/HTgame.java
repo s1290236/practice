@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> user_name
 public class HTgame {
 	
 	public static int Hcount;
