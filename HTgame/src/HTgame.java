@@ -1,7 +1,13 @@
+import java.util.Scanner;
+
 public class HTgame {
 	public static int Hcount;
 	public static int Fcount;
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Who are you?");
+		String name = scanner.nextLine();
+		System.out.println("Hello "+name+"!");
 
 		System.out.println("Tossing a coin...");
 		for(int i = 1;i<4;i++){
